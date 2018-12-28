@@ -9,6 +9,8 @@ MsgController.$inject = ['$scope', '$filter'];
 function MsgController($scope, $filter) {
   $scope.name = "Yaakov";
   $scope.stateOfBeing = "hungry";
+  //Add a new scope for cookieCost
+  $scope.cookieCost = .45;
 
   $scope.sayMessage = function () {
     //Add a new variable; the returned message
